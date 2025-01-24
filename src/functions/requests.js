@@ -1,4 +1,4 @@
-const API_KEY = '045e95a667b998ace311facd0a3c02cb';
+const API_KEY = '91e34a07';
 
 const requests = {
   movies: `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&language=en-US&page=1`,

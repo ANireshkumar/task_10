@@ -6,7 +6,7 @@ import truncate from '../functions/truncate';
 import Navbar from '../components/Navbar';
 
 function Home() {
-  const baseUrl = 'https://image.tmdb.org/t/p/original/';
+  const baseUrl = 'http://img.omdbapi.com/';
   const dispatch = useDispatch();
   const { movies } = useSelector((state) => state.movies);
   const [like, setLike] = useState(false);
